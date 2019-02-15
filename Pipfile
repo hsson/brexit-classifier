@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+tensorflow-gpu = "*"
+keras = "*"
+pandas = "*"
+h5py = "*"
+numpy = "*"
+sklearn = "*"
+pyyaml = "*"
+
+[requires]
+python_version = "3.6"
